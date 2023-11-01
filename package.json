@@ -5,13 +5,15 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && node ./scripts/js-fix",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"deploy": "gh-pages -d build"
 	},
 	"devDependencies": {
 		"@onsvisual/svelte-components": "^0.0.30",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
+		"gh-pages": "^6.0.0",
 		"svelte": "^4.0.5",
 		"vite": "^4.4.2"
 	},
